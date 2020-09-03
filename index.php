@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/font-awesome.css">
   </head>
 
 <body onload="main();">
@@ -20,6 +20,36 @@
     </div>  
   </div>
 </div>
+
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-fix">
+<p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Manual 1</a>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Manual 2</button>
+  
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+      </div>
+    </div>
+    </div>
+  </div>  
+  </div>
+</div>  
+
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -98,18 +128,33 @@
                     <button id="numeral" type="button" class="btn btn-primary 
                     rounded-circle btn-lg">#</button>
                     </td>
-                    </tr>
+                </tr>
+                <tr>
+                  <td>
+                    <button type="button" id="reset" class="btn btn-danger rounded-circle btn-lg">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    </button>
+                  </td>
+                      <td>
+                      <button type="button" id="" class="btn btn-secondary rounded-circle btn-lg"><i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>
+                    </td>
+                  <td>
+                    <button type="button" class="btn btn-success rounded-circle btn-lg">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    </button>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </center>          
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-success" data-dismiss="modal">
-        <i class="fa fa-phone" aria-hidden="true"></i>
-        </button>
+
         <button type="button" class="btn btn-danger" data-dismiss="modal">
-        <i class="fa fa-phone" aria-hidden="true"></i>
+        Salir
         </button>
+        
       </div>
     </div>
   </div>
